@@ -16,14 +16,10 @@ public class Gugudan {
 					System.out.println(i+" * "+j+" = "+i*j);
 			}	
 		}
-		else if(num>0)
+		else
 		{
 		for(int i=1;i<10;i++)
 			System.out.println(num+" * "+i+" = "+num*i);
-		}
-		else
-		{
-			System.out.println("구구단 출력이 불가 합니다.");
 		}
 
 	}
